@@ -1,0 +1,9 @@
+<h1>  <%=@number_of_die%>d<%=@size_of_die%>  </h1>
+
+<ul>
+<% @rolls.each do |roll|%>
+  <li>
+  <%=roll%>
+  </li>
+<% end %>
+</ul>
